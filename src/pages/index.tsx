@@ -9,7 +9,7 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <img
+      {/* <img
         src="/vercel-and-notion.png"
         height="85"
         width="250"
@@ -25,11 +25,11 @@ export default () => (
         >
           SSG
         </ExtLink>
-      </h2>
+      </h2> */}
 
       <Features />
 
-      <div className="explanation">
+      {/* <div className="explanation">
         <p>
           This is a statically generated{' '}
           <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
@@ -61,7 +61,7 @@ export default () => (
           After finding your token and your blog's page id you should be good to
           go!
         </p>
-      </div>
+      </div> */}
     </div>
   </>
 )

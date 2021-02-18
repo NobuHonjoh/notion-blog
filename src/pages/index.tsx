@@ -35,7 +35,7 @@ export default () => (
           twitter.com/_honjoh/
         </ExtLink>
 
-        <BR>
+        <br />
 
         <ExtLink
           href="https://honjoh.net/"
